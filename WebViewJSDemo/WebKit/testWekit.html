@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function test()
+            {
+                window.webkit.messageHandlers.sendMessageToNative.postMessage('TestWebKit');
+            }
+        </script>
+    </head>
+    <body>
+        <h1>WebKit Demo</h1>
+        <button style="width:600px;height:100px" type="button" onclick="test()"><font size=30>测试WebKit</font></button>
+    </body>
+</html>
